@@ -27,5 +27,8 @@ class MainActivity : AppCompatActivity() {
             viewModel.increaseCount()
         }
 
+        binding.btnRandom.setOnClickListener {
+            viewModel.fetchRandomNumber()
+        }
     }
 }

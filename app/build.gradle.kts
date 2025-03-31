@@ -48,8 +48,14 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
+    //MVVM을 사용하기 위한 viewModel/LiveData추가
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    //RESTful API를 사용하기 위한 라이브러리 추가 ( retrofit )
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+
     implementation(libs.androidx.activity.ktx)
 
     testImplementation(libs.junit)
